@@ -44,6 +44,7 @@ class HomePage extends StatelessWidget {
                   child: Image.asset(
                     "assets/images/pizza.png",
                     height: 80,
+                    fit: BoxFit.fitWidth,
                   ),
                 ),
                 Padding(
@@ -51,6 +52,7 @@ class HomePage extends StatelessWidget {
                   child: Image.asset(
                     "assets/images/fast_food_1.png",
                     height: 80,
+                    fit: BoxFit.fitWidth,
                   ),
                 ),
                 Expanded(
@@ -59,6 +61,7 @@ class HomePage extends StatelessWidget {
                     child: Image.asset(
                       "assets/images/salad.png",
                       width: 100,
+                      fit: BoxFit.fitWidth,
                     ),
                   ),
                 ),
@@ -103,6 +106,7 @@ class HomePage extends StatelessWidget {
                   "assets/images/login_backgraung.png",
                   height: 40,
                 ),
+                
 
               ),
               Row(
